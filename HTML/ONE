@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEX</title>
+</head>
+<body>
+    <style>
+        body
+        {background-color: aqua;}
+        
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-shadow: 0px -10px 5px red;
+        }
+    .one{background-color: green;
+    width: 500px;
+    height: 500px;
+    border: 10px solid red;
+    box-shadow: 10px 10px 10px 20px gray;} 
+
+    .two{color: aquamarine;
+    background-color: blue;
+border-radius: 50%;}
+
+.block{display: inline-block;}
+p
+{text-transform: uppercase;
+font-size: 40px;
+font-family: fantasy;}
+
+    </style>
+    <h1>hello</h1>
+    <p>Это мой первый сайт!!!</p>
+    <div class="block">
+    <img src="https://pluspng.com/img-png/images-owls-png-hd-owl-free-download-png-png-image-485.png" height="200" width="200">
+    </div>
+    <div class="block">
+        Перейдя по ссылке вы научитесь программимрованью. <br>
+        <a href="https://itvdn.com/ru/video/html-css-starter/margin-html5-css3" target="_blank"> Ссылка</a>
+    </div>
+       <div class="block"> А нажав на эту ссылку вы сможете написать своё имя. <br>
+    <a href="#ancor1"> ЯКОРЬ</a>
+</div>
+
+       </div>
+    <hr>
+      <div class="one"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus odit voluptate tenetur corrupti. Facere aspernatur cupiditate sapiente? Animi cupiditate consequuntur ratione, molestias reiciendis illo officia doloribus quas dolorem vel amet! 
+        <div class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi modi porro, iusto illum voluptates tempore?</div>
+     </div>
+     <br>
+     <br>
+     <h2 id="ancor1"> ИМЯ</h2>
+     <input type="text">
+</body>
+</html>
